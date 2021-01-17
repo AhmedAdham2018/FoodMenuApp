@@ -1,0 +1,62 @@
+name: food_menu_App
+description: A new food menu Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  fluro:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/menu1.png
+    - assets/images/menu2.png
+    - assets/images/menu3.png
+    - assets/images/menu4.png
+    - assets/images/menu5.png
+    - assets/images/menu7.png
+    - assets/images/menu8.png
+    - assets/images/menu9.png
+    - assets/images/menu10.png
+    - assets/images/menu11.png
+    - assets/images/menu12.png
+    - assets/images/menu13.png
+    - assets/images/menu14.png
+
+
+
+  fonts:
+    - family: fontello
+      fonts:
+        - asset: assets/fonts/fontello.ttf
+    - family: Dosis
+      fonts:
+        - asset: assets/fonts/Dosis/Dosis-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Dosis/Dosis-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Dosis/Dosis-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Dosis/Dosis-Bold.ttf
+          weight: 800
+        - asset: assets/fonts/Dosis/Dosis-ExtraBold.ttf
+          weight: 900
+

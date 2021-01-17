@@ -1,0 +1,18 @@
+import 'package:fluro/fluro.dart';
+import 'package:flutter/material.dart';
+import './screens/details.dart';
+
+class Routes {
+  static final FluroRouter _router = FluroRouter();
+
+  static void initRoutes() {
+    _router.define("/detail/:id", handler: Handler(
+        handlerFunc: (BuildContext context, Map<String, dynamic> params) {
+      return DetailPage(params["id"]);
+    }));
+  }
+
+  static void navigateTo(context, String route) {
+    _router.navigateTo(context, route);
+  }
+}
